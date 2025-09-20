@@ -1,0 +1,119 @@
+/* Smooth Scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* General Page Styles */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Sticky Navbar */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  border-bottom: 2px solid #eee;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  z-index: 10;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  color: #e639a0;
+}
+
+/* Hero Section with Cats Background */
+.hero {
+  background-color: #fefefe;
+  background-image: url("https://twemoji.maxcdn.com/v/14.0.2/svg/1f431.svg");
+  background-repeat: repeat;
+  background-size: 80px 80px;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
+
+/* About Section */
+.about {
+  background: #fff;
+}
+
+/* Interests Section with Hearts Background */
+.interests {
+  background-color: #fff0f6;
+  background-image: url("https://twemoji.maxcdn.com/v/14.0.2/svg/2764.svg");
+  background-repeat: repeat;
+  background-size: 50px 50px;
+}
+
+.interests-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.interests-list div {
+  max-width: 200px;
+  background: rgba(255, 255, 255, 0.85);
+  padding: 15px;
+  border-radius: 12px;
+}
+
+/* Projects Section */
+.projects {
+  background: #f9f9f9;
+}
+
+/* AI Section */
+.ai {
+  background: #ffffff;
+}
+
+/* Footer with Cats + Hearts */
+.footer {
+  background-color: #fdf6f9;
+  background-image: url("https://twemoji.maxcdn.com/v/14.0.2/svg/1f431.svg"),
+                    url("https://twemoji.maxcdn.com/v/14.0.2/svg/2764.svg");
+  background-repeat: repeat, repeat;
+  background-size: 60px 60px, 40px 40px;
+  padding: 40px 20px;
+}
+
+.footer a {
+  color: #e639a0;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
